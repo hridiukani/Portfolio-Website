@@ -6,9 +6,10 @@
   .about-containers {
     flex-wrap: wrap;
   }
-  #contact,
+  #contact{height: 50vh;
+    margin-bottom: 8rem;}
   #projects {
-    height: fit-content;
+    height: 90vh;
   }
 }
 
@@ -78,6 +79,8 @@
   .experience-sub-title {
     font-size: 1.25rem;
   }
+
+
   .logo {
     font-size: 1.5rem;
   }

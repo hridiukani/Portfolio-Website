@@ -160,7 +160,7 @@ section {
   padding-top: 4vh;
   height: 96vh;
   margin: 0 10rem;
-  box-sizing: border-box;
+  
   min-height: fit-content;
 }
 
@@ -339,7 +339,13 @@ section {
   color: palevioletred;
   font-weight: 500;
   font-size: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+
+.experience-sub-sub-sub-title {
+  color: gray;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 
@@ -387,8 +393,7 @@ article .icon {
 }
 
 .project-title {
-  margin: 1rem;
-  color: black;
+  color: palevioletred;
 }
 
 .project-btn {
@@ -402,7 +407,8 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 80vh;
+  position: relative;
 }
 
 .contact-info-upper-container {
